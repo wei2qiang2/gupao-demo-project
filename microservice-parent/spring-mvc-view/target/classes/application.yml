@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/thymeleaf/
+    cache: false
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: false
+          paths: /**

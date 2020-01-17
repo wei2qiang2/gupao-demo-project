@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="480" version="1.1" viewBox="0 0 108 480" width="108">
+  <defs>
+    <linearGradient id="g1" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#cfcfcf"/>
+    </linearGradient>
+    <svg height="16.0" id="i1" width="16.0">
+      <image height="16.0" width="16.0" xlink:href="data:image/png;base64,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"/>
+    </svg>
+    <svg height="16.0" id="i2" width="16.0">
+      <image height="16.0" width="16.0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAYklEQVR42mL8z4AfAAQQEwMD439GuCpMNkAAMREwgAEggAgqAAggggoAAoigAoAAIqgAIIAIKgAIIIIKAAKIoAKAACKoACCACCoACCCCCgACiKACgAAiqAAggBgJRTdAgAEAhIkIHW3OoBcAAAAASUVORK5CYII="/>
+    </svg>
+  </defs>
+  <style><![CDATA[
+	.linkable {pointer-events: all;} 
+	.linkable:hover {fill: blue;}
+  ]]></style>
+  <g id="startevent1">
+    <ellipse cx="52" cy="17" fill="url(#g1)" rx="16" ry="16" stroke="#000000" stroke-width="1.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="51" y="52">Start</text>
+  <g id="usertask1">
+    <rect fill="url(#g1)" height="55" rx="8.25" ry="8.25" stroke="#000000" stroke-width="1.0" width="105" x="1" y="108"/>
+    <use height="16.0" preserveAspectRatio="none" width="16.0" x="6.0" xlink:href="#i1" y="111.0"/>
+    <use height="16.0" preserveAspectRatio="none" width="16.0" x="45.5" xlink:href="#i2" y="147.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="53" y="138">OCC1</text>
+  <g id="endevent1">
+    <ellipse cx="52" cy="434" fill="url(#g1)" rx="16" ry="16" stroke="#000000" stroke-width="4.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="52" y="469">End</text>
+  <g id="usertask2">
+    <rect fill="url(#g1)" height="55" rx="8.25" ry="8.25" stroke="#000000" stroke-width="1.0" width="105" x="1" y="188"/>
+    <use height="16.0" preserveAspectRatio="none" width="16.0" x="6.0" xlink:href="#i1" y="191.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="53" y="218">CONDITION_DEPT</text>
+  <g id="usertask3">
+    <rect fill="url(#g1)" height="55" rx="8.25" ry="8.25" stroke="#000000" stroke-width="1.0" width="105" x="1" y="308"/>
+    <use height="16.0" preserveAspectRatio="none" width="16.0" x="6.0" xlink:href="#i1" y="311.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="53" y="338">OCC2</text>
+  <g id="flow4">
+    <path d="M 53.5 187.5 L 48.5 177.5 L 53.5 180.0 L 58.5 177.5 z" fill="#000000" stroke="#000000" stroke-width="1.0"/>
+    <path d="M 53.5 163.5 L 53.5 169.5 Q 53.5 175.5 53.5 181.75 L 53.5 188.0" fill="none" stroke="#000000" stroke-width="1.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="53" y="176">是否有配合部门</text>
+  <g id="flow3">
+    <path d="M 53.5 307.5 L 48.5 297.5 L 53.5 300.0 L 58.5 297.5 z" fill="#000000" stroke="#000000" stroke-width="1.0"/>
+    <path d="M 53.5 243.5 L 53.5 265.5 Q 53.5 275.5 53.5 285.5 L 53.5 308.0" fill="none" stroke="#000000" stroke-width="1.0"/>
+  </g>
+  <g id="flow2">
+    <path d="M 52.0 417.5 L 47.0 407.5 L 52.0 410.0 L 57.0 407.5 z" fill="#000000" stroke="#000000" stroke-width="1.0"/>
+    <path d="M 52.0 363.5 L 52.0 380.5 Q 52.0 390.5 52.0 400.5 L 52.0 418.0" fill="none" stroke="#000000" stroke-width="1.0"/>
+  </g>
+  <g id="flow1">
+    <path d="M 52.0 107.5 L 47.0 97.5 L 52.0 100.0 L 57.0 97.5 z" fill="#000000" stroke="#000000" stroke-width="1.0"/>
+    <path d="M 52.0 33.5 L 52.0 60.5 Q 52.0 70.5 52.0 80.5 L 52.0 108.0" fill="none" stroke="#000000" stroke-width="1.0"/>
+  </g>
+  <text fill="#000000" font-decoration="none" font-family="Arial,Helvetica" font-size="11" font-weight="normal" text-anchor="middle" x="52" y="71">是否有动火令</text>
+</svg>

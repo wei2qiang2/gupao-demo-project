@@ -1,0 +1,42 @@
+mybatis-plus:
+  mapper-locations: classpath:/mappers/*Mapper.xml
+  typeAliasesPackage: com.demo.cache.entity
+  global-config:
+    #实体扫描，多个package用逗号或者分号分隔
+    id-type: 2
+    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+    field-strategy: 2
+    #驼峰下划线转换
+    db-column-underline: false
+    #刷新mapper 调试神器
+    refresh-mapper: true
+    #数据库大写下划线转换
+    capital-mode: false
+    #多租户配置开启
+    sql-parser-cache: true
+    #序列接口实现类配置
+    #key-generator: com.aecc.busys.xamh.xxx
+    #逻辑删除配置
+    logic-delete-value: 1
+    logic-not-delete-value: 0
+    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
+    #自定义填充策略接口实现
+    #    meta-object-handler: com.aecc.yyyh.server.config.MyMetaObjectHandler
+    #自定义SQL注入器
+    #sql-injector: com.aecc.busys.xamh.xxx
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot-cache?useUnicode=true&useSSL=false&characterEncoding=UTF-8
+    username: root
+    password: root
+    validationQuery: SELECT 1
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,log4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
